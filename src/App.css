@@ -1,0 +1,24 @@
+#header{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: white;
+  background-color: orangered;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#card_container{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+}
+
+#bx{
+  font-size: 5rem;
+  color: orangered;
+}
+
+#card_container:nth-child(3){
+  background-color: rgb(236, 233, 233);
+}
